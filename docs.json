@@ -31,56 +31,119 @@
     }
   ],
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Welcome & Campus",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "General Information",
-            "pages": [
-              "introduction",
-              "campus/about-essal",
-              "campus/registration",
-              "campus/campus-life"
+            "tab": "Welcome & Campus",
+            "groups": [
+              {
+                "group": "General Information",
+                "pages": [
+                  "introduction",
+                  "campus/about-essal",
+                  "campus/registration",
+                  "campus/campus-life"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Academic Rules",
+            "groups": [
+              {
+                "group": "Academic Policies",
+                "pages": [
+                  "academics/grading-exams",
+                  "academics/attendance",
+                  "academics/certifications"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Courses & Programs",
+            "groups": [
+              {
+                "group": "Our Courses",
+                "pages": [
+                  "courses/it-courses",
+                  "courses/business-courses",
+                  "courses/language-courses"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Student Services",
+            "groups": [
+              {
+                "group": "Administrative & Careers",
+                "pages": [
+                  "services/admin-procedures",
+                  "services/internships",
+                  "services/support"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "Academic Rules",
-        "groups": [
+        "language": "ar",
+        "tabs": [
           {
-            "group": "Academic Policies",
-            "pages": [
-              "academics/grading-exams",
-              "academics/attendance",
-              "academics/certifications"
+            "tab": "الترحيب والحرم الجامعي",
+            "groups": [
+              {
+                "group": "معلومات عامة",
+                "pages": [
+                  "ar/introduction",
+                  "ar/campus/about-essal",
+                  "ar/campus/registration",
+                  "ar/campus/campus-life"
+                ]
+              }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Courses & Programs",
-        "groups": [
+          },
           {
-            "group": "Our Courses",
-            "pages": [
-              "courses/it-courses",
-              "courses/business-courses",
-              "courses/language-courses"
+            "tab": "القوانين الأكاديمية",
+            "groups": [
+              {
+                "group": "السياسات الأكاديمية",
+                "pages": [
+                  "ar/academics/grading-exams",
+                  "ar/academics/attendance",
+                  "ar/academics/certifications"
+                ]
+              }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Student Services",
-        "groups": [
+          },
           {
-            "group": "Administrative & Careers",
-            "pages": [
-              "services/admin-procedures",
-              "services/internships",
-              "services/support"
+            "tab": "الدورات والبرامج",
+            "groups": [
+              {
+                "group": "البرامج التدريبية",
+                "pages": [
+                  "ar/courses/it-courses",
+                  "ar/courses/business-courses",
+                  "ar/courses/language-courses"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "خدمات الطلاب",
+            "groups": [
+              {
+                "group": "الإدارة والمسار المهني",
+                "pages": [
+                  "ar/services/admin-procedures",
+                  "ar/services/internships",
+                  "ar/services/support"
+                ]
+              }
             ]
           }
         ]
